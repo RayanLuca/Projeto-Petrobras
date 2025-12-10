@@ -9,6 +9,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { toast } from 'sonner';
 import { getStockItems, createRequest, StockItem } from '@/services/stockService';
 import { useAuth } from '@/contexts/AuthContext';
+  
 
 export default function SolicitacaoPecas() {
   const navigate = useNavigate();
