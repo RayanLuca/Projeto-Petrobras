@@ -19,13 +19,21 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = SistemaEstoqueApi
 build_property.RootNamespace = SistemaEstoqueApi
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Joacir\Desktop\api-petrobras\backend-api\SistemaEstoqueApi\
+=======
+build_property.ProjectDir = C:\Users\Joacir\Desktop\projetointegrador\Projeto-Petrobras\SistemaEstoqueApi\
+>>>>>>> 0fdccb3d1f143f25e067fb622269a6ced55463f3
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\Joacir\Desktop\api-petrobras\backend-api\SistemaEstoqueApi
+=======
+build_property.MSBuildProjectDirectory = C:\Users\Joacir\Desktop\projetointegrador\Projeto-Petrobras\SistemaEstoqueApi
+>>>>>>> 0fdccb3d1f143f25e067fb622269a6ced55463f3
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Joacir\\Desktop\\api-petrobras\\backend-api\\SistemaEstoqueApi\\SistemaEstoqueApi.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Joacir\\Desktop\\api-petrobras\\backend-api\\SistemaEstoqueApi\\SistemaEstoqueApi.csproj",
         "packagesPath": "C:\\Users\\Joacir\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Joacir\\Desktop\\api-petrobras\\backend-api\\SistemaEstoqueApi\\obj\\",
+=======
+    "C:\\Users\\Joacir\\Desktop\\projetointegrador\\Projeto-Petrobras\\SistemaEstoqueApi\\SistemaEstoqueApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Joacir\\Desktop\\projetointegrador\\Projeto-Petrobras\\SistemaEstoqueApi\\SistemaEstoqueApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joacir\\Desktop\\projetointegrador\\Projeto-Petrobras\\SistemaEstoqueApi\\SistemaEstoqueApi.csproj",
+        "projectName": "SistemaEstoqueApi",
+        "projectPath": "C:\\Users\\Joacir\\Desktop\\projetointegrador\\Projeto-Petrobras\\SistemaEstoqueApi\\SistemaEstoqueApi.csproj",
+        "packagesPath": "C:\\Users\\Joacir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joacir\\Desktop\\projetointegrador\\Projeto-Petrobras\\SistemaEstoqueApi\\obj\\",
+>>>>>>> 0fdccb3d1f143f25e067fb622269a6ced55463f3
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joacir\\AppData\\Roaming\\NuGet\\NuGet.Config"
