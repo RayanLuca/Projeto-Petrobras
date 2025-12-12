@@ -1,0 +1,90 @@
+classDiagram 
+
+    class Usuario {
+        +int id
+        +string nome
+        +string email
+        +string senhaHash
+        +string cargo
+        +bool admin
+    }
+
+    class Pecas {
+        <<abstract>>
+        +int id
+        +string nome
+        +string descricao
+        +string categoria
+        +int quantidade
+        +string estado
+        +string localizacao
+    }
+
+    class PecaSoftware {
+        +string versao
+        +string licenca
+        +string fornecedor
+    }
+
+    class PecaHardware {
+        +string modelo
+        +string fabricante
+        +string numeroSerie
+    }
+
+    class Periferico {
+        +string tipo
+        +string compatibilidade
+        +string fabricante
+    }
+
+    class ComponenteEletronico {
+        +string tipo
+        +string especificacaoTecnica
+        +string sensibilidade
+    }
+
+    PecaSoftware --|> Pecas
+    PecaHardware --|> Pecas
+    Periferico --|> Pecas
+    ComponenteEletronico --|> Pecas
+
+    class SolicitacaoPeca {
+        +int id
+        +datetime dataSolicitacao
+        +string status
+        +int quantidadeSolicitada
+        +string justificativa
+    }
+
+    class DistribuicaoPeca {
+        +int id
+        +datetime dataDistribuicao
+        +int quantidadeEntregue
+        +string destino
+    }
+
+    class MonitoramentoEstoque {
+        +int id
+        +datetime dataRegistro
+        +int quantidadeAtual
+        +string statusEstoque
+    }
+
+    class CadastroPeca {
+        +int id
+        +datetime dataCadastro
+        +string responsavel
+        +string observacoes
+    }
+
+    Usuario "1" --> "0..*" SolicitacaoPeca : realiza
+    SolicitacaoPeca "1" --> "1" Pecas : refere-se
+
+    Usuario "1" --> "0..*" DistribuicaoPeca : distribui
+    DistribuicaoPeca "1" --> "1" Pecas : entrega
+
+    Pecas "1" --> "0..*" MonitoramentoEstoque : monitora
+
+    Usuario "1" --> "0..*" CadastroPeca : cadastra
+    CadastroPeca "1" --> "1" Pecas : cria
