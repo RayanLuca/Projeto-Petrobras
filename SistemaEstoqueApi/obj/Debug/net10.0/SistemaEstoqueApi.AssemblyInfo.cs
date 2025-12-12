@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaEstoqueApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b08b50863a75632764f8d0723b200999edb51b01")]
+=======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c6c927fd7080def00d27a84bf8f317b6b8182bf")]
+>>>>>>> 0fdccb3d1f143f25e067fb622269a6ced55463f3
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaEstoqueApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaEstoqueApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

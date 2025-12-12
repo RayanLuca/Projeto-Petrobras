@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "RUjTr6Logr8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joacir\\Desktop\\api-petrobras\\backend-api\\SistemaEstoqueApi\\SistemaEstoqueApi.csproj",
+=======
   "dgSpecHash": "SV7WH4TLwbE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Joacir\\Desktop\\projetointegrador\\Projeto-Petrobras\\SistemaEstoqueApi\\SistemaEstoqueApi.csproj",
+>>>>>>> 0fdccb3d1f143f25e067fb622269a6ced55463f3
   "expectedPackageFiles": [
     "C:\\Users\\Joacir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Joacir\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",

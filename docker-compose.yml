@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend-api-main/SistemaEstoqueApi
+    container_name: backend
+    ports:
+      - "3000:3000"
+
+  frontend:
+    build:
+      context: ./Projeto-Petrobras-develop
+    container_name: frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://backend:3000
+    depends_on:
+      - backend
+=======
 version: '3.9'
 
 services:
@@ -36,3 +58,4 @@ services:
 volumes:
   postgres_data:
   pgadmin_data:
+>>>>>>> 0fdccb3d1f143f25e067fb622269a6ced55463f3
